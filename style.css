@@ -12,3 +12,7 @@ body {
     margin: 0 5%;
     font-family: 'Work Sans', sans-serif;
 }
+
+nav ul img {
+    max-width: 10%;
+}
