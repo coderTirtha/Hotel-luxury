@@ -9,10 +9,117 @@ html {
 }
 
 body {
-    margin: 0 5%;
+    margin: 0 6%;
     font-family: 'Work Sans', sans-serif;
 }
 
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    margin-right: 20px;
+    padding: 5px 10px;
+    transition: .1s linear;
+    font-size: 16px;
+}
+
+nav ul li:hover {
+    border-bottom: 4px solid #ff7300;
+}
+
 nav ul img {
-    max-width: 10%;
+    width: 100px;
+}
+
+nav ul button {
+    background-color: #ff7300;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    transition: .2s ease-in-out;
+}
+
+nav ul button:hover {
+    color: white;
+    font-size: 18px;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+}
+
+.banner-section i {
+    font-size: 50px;
+}
+
+.banner-part {
+    margin: 20px 8%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+}
+
+.banner-text h4 {
+    color: #ff7300;
+    padding: 5px 0;
+}
+
+.banner-text p {
+    padding: 10px 0;
+}
+
+.banner-text button {
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 17px;
+    transition: .2s ease-in-out;
+}
+
+.banner-text button:hover {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.section-heading {
+    font-size: 50px;
+}
+
+.banner-image {
+    display: flex;
+    align-items: center;
+}
+
+.banner-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.dotted-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dotted-circle i {
+    padding: 10px;
+    font-size: 10px;
 }
